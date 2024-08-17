@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 # Load and preprocess data (insert your dataset path)
-file_path ="C:\\Users\\user\\Downloads\\INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.csv"
+file_path ="INX_Future_Inc_Employee_Performance_CDS_Project2_Data_V1.8.csv"
 data = pd.read_csv(file_path)
 
 # Streamlit app
